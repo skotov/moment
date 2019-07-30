@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/chrome/node_modules
+/chrome/.pnp
+/chrome/.pnp.js
+
+# testing
+/chrome/coverage
+
+# production
+/chrome/build
+
+# misc
+.DS_Store
+/chrome/.DS_Store
+/chrome/.env.local
+/chrome/.env.development.local
+/chrome/.env.test.local
+/chrome/.env.production.local
+
+/chrome/npm-debug.log*
+/chrome/yarn-debug.log*
+/chrome/yarn-error.log*
+
+# boilerplate
+/chromebase

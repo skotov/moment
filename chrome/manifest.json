@@ -1,0 +1,13 @@
+{
+    "name": "Moment for Chrome",
+    "version": "1.0",
+    "description": "The most lightweight journaling app",
+    "manifest_version": 2,
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "chrome_url_overrides" : {
+        "newtab": "public/index.html"
+    },
+    "page_action": {
+        "default_popup": "public/index.html"
+    }
+  }

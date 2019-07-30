@@ -1,0 +1,66 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container { 
+    min-height: 93vh;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+button {
+    height: 30px;
+    margin: 8px 0;
+    width: 606px;
+    background-color: #eee;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #BCBCBC;
+    font-family: monospace;
+}
+#textInput {
+    height: 100px;
+    width: 600px;
+    opacity: 0.6;
+    border-radius: 4px;
+}
+.prompt {
+    font-size: 24px;
+    font-family: monospace;
+    margin: 16px;
+}
+#promptText{
+    display: inline;
+}
+#newPrompt{
+    display: inline;
+}
+.activeLink {
+    color:#08A1F2;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+
+.exploreLink {
+    background-color: #34343C;
+    color: #DADCDD;
+    height: 7vh;
+    min-height: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.exploreLink:hover {
+    background-color: pink;
+    color: #34343C;
+    height: 100px;
+}
+.exploreLink #text {
+    padding: 8px 0 8px 16px;
+}
